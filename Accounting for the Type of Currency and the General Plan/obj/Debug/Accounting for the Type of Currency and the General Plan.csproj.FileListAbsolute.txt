@@ -1,0 +1,7 @@
+D:\Work\Innowise\Accounting for the Type of Currency and the General Plan\Accounting for the Type of Currency and the General Plan\bin\Debug\Accounting for the Type of Currency and the General Plan.exe.config
+D:\Work\Innowise\Accounting for the Type of Currency and the General Plan\Accounting for the Type of Currency and the General Plan\bin\Debug\Accounting for the Type of Currency and the General Plan.exe
+D:\Work\Innowise\Accounting for the Type of Currency and the General Plan\Accounting for the Type of Currency and the General Plan\bin\Debug\Accounting for the Type of Currency and the General Plan.pdb
+D:\Work\Innowise\Accounting for the Type of Currency and the General Plan\Accounting for the Type of Currency and the General Plan\obj\Debug\Accounting for the Type of Currency and the General Plan.csproj.AssemblyReference.cache
+D:\Work\Innowise\Accounting for the Type of Currency and the General Plan\Accounting for the Type of Currency and the General Plan\obj\Debug\Accounting for the Type of Currency and the General Plan.csproj.CoreCompileInputs.cache
+D:\Work\Innowise\Accounting for the Type of Currency and the General Plan\Accounting for the Type of Currency and the General Plan\obj\Debug\Accounting for the Type of Currency and the General Plan.exe
+D:\Work\Innowise\Accounting for the Type of Currency and the General Plan\Accounting for the Type of Currency and the General Plan\obj\Debug\Accounting for the Type of Currency and the General Plan.pdb
