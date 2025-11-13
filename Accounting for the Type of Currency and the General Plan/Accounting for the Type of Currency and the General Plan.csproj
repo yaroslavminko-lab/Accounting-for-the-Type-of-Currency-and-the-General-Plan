@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="Bonus.cs" />
     <Compile Include="BonusCalculator.cs" />
-    <Compile Include="Currencies.cs" />
     <Compile Include="CurrencyConverter.cs" />
     <Compile Include="IBonusCalculator.cs" />
     <Compile Include="ICurrencyConverter.cs" />

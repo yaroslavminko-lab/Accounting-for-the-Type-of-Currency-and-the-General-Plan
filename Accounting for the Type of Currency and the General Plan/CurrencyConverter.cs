@@ -10,7 +10,9 @@ namespace Accounting_for_the_Type_of_Currency_and_the_General_Plan
     {
         public Sell ConvertEurToUSD(Sell sell)
         {
-            return new Sell(sell.Amount * 1.1m, sell.Manager, "USD");
+            return sell.Currency == "EUR"
+                ? new Sell(sell.Amount * 1.1m, sell.Manager, "USD")
+                : sell;
         }
     }
 }

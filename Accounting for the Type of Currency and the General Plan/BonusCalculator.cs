@@ -12,7 +12,7 @@ namespace Accounting_for_the_Type_of_Currency_and_the_General_Plan
         {
             return new Bonus(
                 sell.Manager,
-                sell.Amount * 1.013m + (sell.Amount > 750000 ? sell.Amount * 0.05m : 0)
+                Math.Round(sell.Amount * 0.013m + (sell.Amount > 750000 ? sell.Amount * 0.005m : 0), 2)
             );
         }
     }
