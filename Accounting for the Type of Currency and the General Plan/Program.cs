@@ -22,12 +22,8 @@ namespace Accounting_for_the_Type_of_Currency_and_the_General_Plan
 
             sells.Select(converter.ConvertEurToUSD)
                 .GroupBy(s => s.Manager)
-                .Select(g => calculator.CalculateBonusFromSell(
-                    new Sell(
-                        amount: g.Sum(x => x.Amount),
-                        manager: g.Key,
-                        currency: "USD"
-                    )))
+                .Select(g => new Sell(g.Sum(x => x.Amount), g.Key, g.First().Currency))
+                .Select(calculator.CalculateBonusFromSell)
                 .ToList()
                 .ForEach(x=> Console.WriteLine($"Имя: {x.Name}, размер бонуса: {x.BonusAmount} USD"));
 
